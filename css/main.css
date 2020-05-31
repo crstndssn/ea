@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .main {
     max-width: 1400px;
 }
