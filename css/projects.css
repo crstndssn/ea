@@ -40,16 +40,34 @@ a {
     height: auto;
 }
 
+
+
+
 .projects__container {
-    padding: 20px;
+    padding: 40px;
 }
 
-.project__title {
-    font-size: 24px;
+.projects__header {
+    padding: 10px 40px;
+}
+
+.project__title p {
+    font-size: 32px;
     font-weight: 700;
     margin: 10px 0;
     text-align: left;
 }
+
+.project__text {
+    text-align: justify;
+}
+
+.title{
+    font-size: 40px !important;
+    text-align: center !important;
+    margin-bottom: 30px !important;
+}
+
 
 @media screen and (min-width: 1000px) {
     .projects {
@@ -57,4 +75,17 @@ a {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .projects__container {
+        padding: 40px 0;
+    }
+
+    .projects__header {
+        padding: 10px 0;
+    }
+
+    .navigation {
+        padding: 0;
+    }
+    
 }
