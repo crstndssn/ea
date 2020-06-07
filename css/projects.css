@@ -21,7 +21,7 @@ a {
 
 .card__imagen img {
     width: 100%;
-    height: 200px;
+    height: auto;
     border-radius: 5px 5px 0 0;
 }
 
@@ -32,7 +32,7 @@ a {
 .card__body--title {
     font-size: 24px;
     font-weight: 700;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .home__navigation {
@@ -53,7 +53,7 @@ a {
 
 @media screen and (min-width: 1000px) {
     .projects {
-        margin: 50px 0;
+        margin: 0 0 50px 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
