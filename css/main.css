@@ -11,9 +11,6 @@ img {
     height: auto;
 }
 
-.main {
-    max-width: 1200px;
-}
 
 body {
     font-family: 'DM Sans', sans-serif;
@@ -133,9 +130,6 @@ body {
         text-align: center;
     }
 
-    #home__navigation {
-        max-width: 1400px;
-    }
 
 
 }
